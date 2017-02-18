@@ -45,9 +45,11 @@ media
 venv
 about/migrations/*
 home/migrations/*
+post/migrations/*
 contact/migrations/*
 blog/migrations/*
 accounts/migrations/*
+!post/migrations/__init__.py
 !about/migrations/__init__.py
 !home/migrations/__init__.py
 !contact/migrations/__init__.py
