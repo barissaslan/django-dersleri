@@ -7,8 +7,8 @@ def post_index(request):
     return render(request, "post/index.html", {'posts': posts})
 
 
-def post_detail(request):
-    post = get_object_or_404(Post, id=2)
+def post_detail(request, id):
+    post = get_object_or_404(Post, id=id)
     context = {
         'post': post
     }
