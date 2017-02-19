@@ -6,9 +6,13 @@
 </head>
 <body>
 
+{# /post/{{ post.id }} #}
+
+{#{% url 'detail' id=post.id %}#}
+
 {% for post in posts %}
     ID: {{ post.id }}<br/>
-    {{ post.title }}<br/>
+    <a href="{{ post.get_absolute_url }}">{{ post.title }}</a><br/>
     {{ post.publishing_date }}<br/>
     {{ post.content }}<br><br>
 {% endfor %}

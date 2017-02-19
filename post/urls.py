@@ -1,11 +1,13 @@
 from django.conf.urls import url
 from .views import *
 
+app_name = "post"
+
 urlpatterns = [
 
     url(r'^index/$', post_index),
 
-    url(r'^detail/(?P<id>\d+)/$', post_detail),
+    url(r'^(?P<id>\d+)/$', post_detail, name='detail'),
 
     url(r'^create/$', post_create),
 
