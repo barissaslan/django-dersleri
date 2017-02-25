@@ -1,5 +1,6 @@
 from django.shortcuts import render, HttpResponse, get_object_or_404
 from .models import Post
+from .forms import PostForm
 
 
 def post_index(request):
@@ -16,7 +17,31 @@ def post_detail(request, id):
 
 
 def post_create(request):
-    return HttpResponse("Burası Post oluşturma sayfası")
+    # if request.method == "POST":
+    #     print(request.POST)
+    #
+    # title = request.POST.get("title")
+    # content = request.POST.get("metin")
+    # Post.objects.create(title=title, content=content)
+
+    # if request.method == "POST":
+    #     # Formdan gelen bilgileri kaydet
+    #     form = PostForm(request.POST)
+    #     if form.is_valid():
+    #         form.save()
+    # else:
+    #     # Formu kullanıcıya göster
+    #     form = PostForm()
+
+    form = PostForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+
+    context = {
+        'form': form
+    }
+
+    return render(request, "post/form.html", context)
 
 
 def post_update(request):
