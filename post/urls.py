@@ -5,7 +5,7 @@ app_name = "post"
 
 urlpatterns = [
 
-    url(r'^index/$', post_index),
+    url(r'^index/$', post_index, name="index"),
 
     url(r'^(?P<id>\d+)/$', post_detail, name='detail'),
 
@@ -13,5 +13,5 @@ urlpatterns = [
 
     url(r'^(?P<id>\d+)/update/$', post_update, name="update"),
 
-    url(r'^delete/$', post_delete),
+    url(r'^(?P<id>\d+)/delete/$', post_delete),
 ]
