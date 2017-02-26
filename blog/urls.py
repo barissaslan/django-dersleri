@@ -5,7 +5,7 @@ from home.views import home_view
 
 urlpatterns = [
 
-    url(r'^$', home_view),
+    url(r'^$', home_view, name='home'),
 
     url(r'^post/', include('post.urls')),
 
