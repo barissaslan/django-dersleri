@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<nav class="navbar navbar-inverse  navbar-fixed-top" role="banner">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
     <div class="container">
 
         <div class="navbar-header">
@@ -30,6 +30,7 @@
 
             <!-- Temel Sayfalar -->
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="{% url 'post:create' %}" >Yazı Ekle</a></li>
                 <li><a href="{% url 'home' %}">Anasayfa</a></li>
                 <li><a href="{% url 'post:index' %}">Blog</a></li>
                 <li><a href="#">Hakkımda</a></li>

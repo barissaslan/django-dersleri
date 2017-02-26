@@ -9,9 +9,9 @@ urlpatterns = [
 
     url(r'^(?P<id>\d+)/$', post_detail, name='detail'),
 
-    url(r'^create/$', post_create),
+    url(r'^create/$', post_create, name='create'),
 
     url(r'^(?P<id>\d+)/update/$', post_update, name="update"),
 
-    url(r'^(?P<id>\d+)/delete/$', post_delete),
+    url(r'^(?P<id>\d+)/delete/$', post_delete, name='delete'),
 ]

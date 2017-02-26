@@ -6,11 +6,26 @@
 
 {#{% url 'detail' id=post.id %}#}
 
-{% for post in posts %}
-    ID: {{ post.id }}<br/>
-    <a href="{{ post.get_absolute_url }}">{{ post.title }}</a><br/>
-    {{ post.publishing_date }}<br/>
-    {{ post.content }}<br><br>
-{% endfor %}
+    <div class="container">
+        {% for post in posts %}
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="thumbnail">
+        {#                <img src="..." alt="...">#}
+                        <div class="caption">
+                            <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a> <small>{{ post.publishing_date }}</small></h3>
+                            <p>{{ post.content|linebreaks|truncatechars:150 }}</p>
+                            <p>
+                                <a href="{{ post.get_absolute_url }}" class="btn btn-primary" role="button">İncele</a>
+                                <a href="{{ post.get_update_url }}" class="btn btn-default" role="button">Güncelle</a>
+                                <a href="{{ post.get_delete_url }}" class="btn btn-danger" role="button">Sil</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
 
 {% endblock %}
