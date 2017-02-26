@@ -11,7 +11,9 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <div class="thumbnail">
-        {#                <img src="..." alt="...">#}
+                        {% if post.image %}
+                            <img src="{{ post.image.url }}" class="img-responsive" >
+                        {% endif %}
                         <div class="caption">
                             <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a> <small>{{ post.publishing_date }}</small></h3>
                             <p>{{ post.content|linebreaks|truncatechars:150 }}</p>
