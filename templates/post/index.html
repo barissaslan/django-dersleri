@@ -16,7 +16,7 @@
                         {% endif %}
                         <div class="caption">
                             <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a> <small>{{ post.publishing_date }}</small></h3>
-                            <p>{{ post.content|linebreaks|truncatechars:150 }}</p>
+                            <p>{{ post.content|safe|linebreaks|truncatechars:150 }}</p>
                             <p>
                                 <a href="{{ post.get_absolute_url }}" class="btn btn-primary" role="button">İncele</a>
                                 {% if request.user.is_authenticated %}

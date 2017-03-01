@@ -10,7 +10,8 @@
                 <h1>Form</h1>
                 <form method="POST" enctype="multipart/form-data">
                     {% csrf_token %}
-                    {{ form|crispy  }}
+                    {{ form|crispy }}
+                    {{ form.media }}
                     <input class="btn btn-primary" type="submit" value="Post Oluştur">
                 </form>
             </div>
