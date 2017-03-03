@@ -43,3 +43,14 @@ class Post(models.Model):
 
     class Meta:
         ordering = ['-publishing_date', 'id']
+
+
+class Comment(models.Model):
+    post = models.ForeignKey('post.Post', on_delete=models.CASCADE, related_name='comments')
+    name = models.CharField(max_length=200, verbose_name='Ad Soyad')
+    content = models.TextField(verbose_name='Yorum')
+
+    created_date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
