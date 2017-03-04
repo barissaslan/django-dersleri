@@ -21,7 +21,7 @@
             <!-- Arama Çubuğu -->
             <form class="navbar-form navbar-left" role="search" method="GET" action="">
                 <div class="input-group">
-                    <input class="form-control" type="text" name="q" placeholder="Search on blog" value="" >
+                    <input class="form-control" type="text" name="q" placeholder="Search on posts" value="{{ request.GET.q }}" >
                     <span class="input-group-btn">
                         <input class="btn btn-default" type="submit" value="Ara">
                     </span>

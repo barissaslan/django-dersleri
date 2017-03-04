@@ -3,10 +3,21 @@ from .models import Post
 from .forms import PostForm, CommentForm
 from django.contrib import messages
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.db.models import Q
 
 
 def post_index(request):
     post_list = Post.objects.all()
+
+    query = request.GET.get('q')
+    if query:
+        post_list = post_list.filter(
+            Q(title__icontains=query) |
+            Q(content__icontains=query) |
+            Q(user__first_name__icontains=query) |
+            Q(user__last_name__icontains=query)
+        ).distinct()
+
     paginator = Paginator(post_list, 5)  # Show 5 contacts per page
 
     page = request.GET.get('page')
