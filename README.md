@@ -8,7 +8,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 ## Ders Kodları
 
-[4 - İlk Django Projesi](https://github.com/barissaslan/django-dersleri/tree/9b6e490276cd4ab6f09a6e53581c6be8e9263849)
+[4 - İlk Django Projesi](../../tree/9b6e490276cd4ab6f09a6e53581c6be8e9263849)
 5 - (Kod Yok)
 [6 - İlk Django Uygulaması](https://github.com/barissaslan/django-dersleri/tree/30a538cbf082a7916b64fa1515bfa731c9e9d367)
 [7 - Model](https://github.com/barissaslan/django-dersleri/tree/b927941409d61a3929911cc6c65850532b05a052)
