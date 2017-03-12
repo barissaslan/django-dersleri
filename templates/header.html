@@ -37,6 +37,13 @@
                 <li><a href="{% url 'post:index' %}">Blog</a></li>
                 <li><a href="#">Hakkımda</a></li>
                 <li><a href="#">İletişim</a></li>
+
+                {% if not request.user.is_authenticated %}
+                    <li><a href="{% url 'accounts:register' %}">Üye Ol</a></li>
+                    <li><a href="{% url 'accounts:login' %}">Giriş</a></li>
+                {% else %}
+                    <li><a href="{% url 'accounts:logout' %}">Çıkış</a></li>
+                {% endif %}
             </ul>
 
         </nav>
