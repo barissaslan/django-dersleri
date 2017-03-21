@@ -14,7 +14,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 `source venv/bin/activate (Linux & Mac)`
 
-`source Scripts\bin\activate (Windows)`
+`venv\Scripts\activate (Windows)`
 
 `pip install -r requirements.txt`
 
