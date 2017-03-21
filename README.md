@@ -6,6 +6,27 @@
 
 Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
+## Kurulum
+
+İndirdikten sonra proje dizini içerisinde :
+```
+virtualenv venv
+
+source venv/bin/activate (Linux & Mac)
+
+source Scripts\bin\activate (Windows)
+
+pip install -r requirements.txt
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuper
+
+python manage.py runserver
+```
+
 ## Ders Kodları
 
 [4 - İlk Django Projesi](https://github.com/barissaslan/django-dersleri/tree/9b6e490276cd4ab6f09a6e53581c6be8e9263849)
