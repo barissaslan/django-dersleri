@@ -1,4 +1,4 @@
-# django-dersleri
+# Django Dersleri
 
 (Videolar Yakında Yüklenecek)
 
