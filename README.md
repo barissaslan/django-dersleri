@@ -9,23 +9,23 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 ## Kurulum
 
 İndirdikten sonra proje dizini içerisinde :
-```
-virtualenv venv
 
-source venv/bin/activate (Linux & Mac)
+`virtualenv venv`
 
-source Scripts\bin\activate (Windows)
+`source venv/bin/activate (Linux & Mac)`
 
-pip install -r requirements.txt
+`source Scripts\bin\activate (Windows)`
 
-python manage.py makemigrations
+`pip install -r requirements.txt`
 
-python manage.py migrate
+`python manage.py makemigrations`
 
-python manage.py createsuper
+`python manage.py migrate`
 
-python manage.py runserver
-```
+`python manage.py createsuper`
+
+`python manage.py runserver`
+
 
 ## Ders Kodları
 
