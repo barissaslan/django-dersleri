@@ -1,0 +1,6 @@
+django==1.10
+django-ckeditor
+django-cleanup
+django-crispy-forms
+django-recaptcha
+Pillow
