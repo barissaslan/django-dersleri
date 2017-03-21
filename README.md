@@ -49,6 +49,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 [23 - Statik Dosyalar](https://github.com/barissaslan/django-dersleri/tree/84149e9891e95e114b6ace22469e805fc570aae4)
 
 [24 - Bootstrap](https://github.com/barissaslan/django-dersleri/tree/10fc466d4dc530a018190cf42d2072494cc68aae)
+  - [header.html](https://github.com/barissaslan/django-dersleri/blob/master/header.html)
 
 [25 - Bootstrap Responsive Tasarım](https://github.com/barissaslan/django-dersleri/tree/4a624b684cd77c9a2ff3724d5b71837593053a00)
 
