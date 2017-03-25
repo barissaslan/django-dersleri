@@ -94,7 +94,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 [35 - Google reCAPTCHA (Ben Robot Değilim)](https://github.com/barissaslan/django-dersleri/tree/3b9729ca40dcc40e27ff09d78e3efbbdfea540d3)
 
-[36 - Django Pagination (Sayfalama)](https://github.com/barissaslan/django-dersleri/tree/6daf0342ccd0b0d3b815093e2fb616f495a132dd)
+[36 - Pagination (Sayfalama)](https://github.com/barissaslan/django-dersleri/tree/6daf0342ccd0b0d3b815093e2fb616f495a132dd)
 
 [37 - Arama Yapmak](https://github.com/barissaslan/django-dersleri/tree/709ba7830911ebbf3510197c893f690927271776)
 
