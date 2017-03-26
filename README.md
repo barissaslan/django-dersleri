@@ -35,7 +35,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 6 - (Kod Yok)
 
-[7 - İlk Django Uygulaması](https://github.com/barissaslan/django-dersleri/tree/30a538cbf082a7916b64fa1515bfa731c9e9d367)
+[7 - İlk Uygulama ve Uygulama Kavramı](https://github.com/barissaslan/django-dersleri/tree/30a538cbf082a7916b64fa1515bfa731c9e9d367)
 
 [8 - Model](https://github.com/barissaslan/django-dersleri/tree/b927941409d61a3929911cc6c65850532b05a052)
 
@@ -51,7 +51,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 14 - (Kod Yok)
 
-[15 - Veritabanından Nesne Getirme](https://github.com/barissaslan/django-dersleri/tree/a78a84f1a26cc2016395158fe8bbcc8a830f5aba)
+[15 - Index ve Detail View](https://github.com/barissaslan/django-dersleri/tree/a78a84f1a26cc2016395158fe8bbcc8a830f5aba)
 
 [16 - Dinamik URL Tanımlama](https://github.com/barissaslan/django-dersleri/tree/80ba2e0f121efac0b5039ea9a42f9109d46350c2)
 
@@ -65,7 +65,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 [21 - Delete View](https://github.com/barissaslan/django-dersleri/tree/1f8ed9af01adf3e8003dab771d98d194bfc0eb90)
 
-[22 - The Messages Framework](https://github.com/barissaslan/django-dersleri/tree/013337c460c3154749f2519a2201e278ba81e3fd)
+[22 - Mesajlar](https://github.com/barissaslan/django-dersleri/tree/013337c460c3154749f2519a2201e278ba81e3fd)
 
 [23 - Template Kalıtımı](https://github.com/barissaslan/django-dersleri/tree/d018311d600de53169a1d05a53a5cbbcb26d8d2b)
 
@@ -76,7 +76,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 [26 - Bootstrap Responsive Tasarım](https://github.com/barissaslan/django-dersleri/tree/4a624b684cd77c9a2ff3724d5b71837593053a00)
 
-[27 - Bootstrap Thumbnail](https://github.com/barissaslan/django-dersleri/tree/cd2a2813c040b4734062f2622c2579b48c7f3733)
+[27 - Bootstrap Özelleştirmeleri](https://github.com/barissaslan/django-dersleri/tree/cd2a2813c040b4734062f2622c2579b48c7f3733)
 
 [28 - Crispy Forms](https://github.com/barissaslan/django-dersleri/tree/d89383446fd74425b66c46a8e342d47632a1a2a3)
 
@@ -94,7 +94,7 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 [35 - Google reCAPTCHA (Ben Robot Değilim)](https://github.com/barissaslan/django-dersleri/tree/3b9729ca40dcc40e27ff09d78e3efbbdfea540d3)
 
-[36 - Pagination (Sayfalama)](https://github.com/barissaslan/django-dersleri/tree/6daf0342ccd0b0d3b815093e2fb616f495a132dd)
+[36 - Sayfalama (Pagination)](https://github.com/barissaslan/django-dersleri/tree/6daf0342ccd0b0d3b815093e2fb616f495a132dd)
 
 [37 - Arama Yapmak](https://github.com/barissaslan/django-dersleri/tree/709ba7830911ebbf3510197c893f690927271776)
 
