@@ -1,8 +1,6 @@
 # Django Dersleri
 
-(Videolar Yakında Yüklenecek)
-
-[YouTube kanalımdaki](https://www.youtube.com/channel/UC5bnqsX71d-eKCHhNvM2U6g) Django Dersleri için proje kaynak kodu. Proje Django 1.10 ve Python 3.5 ile yazılmış olup, bir blog projesi olarak sunulmuştur.
+[YouTube kanalımdaki](https://www.youtube.com/channel/UC5bnqsX71d-eKCHhNvM2U6g) [Django Dersleri](https://www.youtube.com/watch?v=uwVmWS1yJ1k&list=PLPrHLaayVkhny4WRNp05C1qRl1Aq3Wswh) için proje kaynak kodu. Proje Django 1.10 ve Python 3.5 ile yazılmış olup, bir blog projesi olarak sunulmuştur.
 
 Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
