@@ -10,9 +10,11 @@ Dersler YouTube'da ücretsiz olarak yayımlanmaktadır.
 
 `virtualenv venv`
 
-`source venv/bin/activate (Linux & Mac)`
+ Linux & Mac:
+`source venv/bin/activate`
 
-`venv\Scripts\activate (Windows)`
+ Windows:
+`venv\Scripts\activate`
 
 `pip install -r requirements.txt`
 
