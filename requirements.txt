@@ -1,4 +1,4 @@
-django==1.10
+django==2.2.24
 django-ckeditor==5.2.1
 django-crispy-forms==1.6.1
 django-recaptcha==1.2.1
